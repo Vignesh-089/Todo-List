@@ -92,5 +92,5 @@ app.delete('/todos/:id', async (req, res) => {
 
 const port = 8000;
 app.listen(port, () => {
-    console.log('Server is running on the port ', +port);
+    console.log('Server is running on the port ',+port);
 })
